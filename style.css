@@ -8,6 +8,8 @@ body {
   align-content: center;
   justify-content: center;
   border-width: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("background.png");
   min-height: 100vh;
 }
 .container {
@@ -29,6 +31,7 @@ body {
 .form-control label {
   display: inline-block;
   margin-bottom: 5px;
+  color: white;
 }
 .form-control input {
   resize: vertical;
@@ -59,4 +62,7 @@ body {
   cursor: pointer;
   margin-top: 10px;
   transition: 0.3s ease background-color;
+}
+h2 {
+  color: white;
 }
