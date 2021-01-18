@@ -13,40 +13,46 @@
     </style>
 </head>
 <body>
+    <div>
+    <header > <h1>About me</h1></header>
+    <p> I'm a third year Computer Science Student at the University of Witwatersrand, I'm a skilled programmer who looks forward to completing daily tasks and helping my team succeed in any project.
+    </p>
+    </div>
+
     
     <div class="container">
         <div class="header">
-            <h2>Contact us</h2>
+            <h2>Contact Me</h2>
         </div>
         
-        <div class="form" action="https://formspree.io/f/xrgojzwy" method="POST">
-            <div class="form-control">
-                <label for="firstname">Full name</label>
-                <input type="text" id="full name" name="full name" placeholder="enter your full name">        
-            </div>
-            <div class="form-control">
-                <label for="email">Email</label>
-                <input type="email" id="Email" name="email" placeholder="enter Email">        
-            </div>
-            <div class="form-control">
-                <label for="tel">Contact number</label>
-                <input type="tel" id="telephone" name="tel" placeholder="enter your contact number">        
-            </div>
-            <div class="form-control">
-                <label for="message">Message</label>
-                <textarea type="text" id="message" name="message" cols='30' rows="10" placeholder="How may we assit you?"></textarea>        
-            </div>
-            <div>
-                <button type="submit">Submit</button>
-            </div>
+            <div class="container">
+              <form action="https://formspree.io/f/xrgojzwy" method="POST" id="my-form">
+          
+                <div class="form-control">
+                  <label for="firstName"> First Name</label>
+                  <input type="text" id="firstName" name="firstName">
+                </div>
+          
+                <div class="form-control">
+                  <label for="lastName">Last Name</label>
+                  <input type="text" id="lastName" name="lastName">
+                </div>
+          
+                <div class="form-control">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email">
+                </div>
+          
+                <div class="form-control">
+                  <label for="massage">Message</label>
+                  <textarea name="massage" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div><button type="submit"  >Submit</button></div>
                 
-
-
-
-
+              </form>
             </div>
-
-    </div>
+            <div id="status"></div>
+          
         
         <div id="status"></div>
     
